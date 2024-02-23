@@ -6,6 +6,12 @@
 #macro DESIGN_WIDTH 160
 #macro DESIGN_HEIGHT 240
 
+// Global Variables
+
+global.activeInput = "";
+
+// Functions
+
 device_mouse_dbclick_enable(false);
 
 //	
