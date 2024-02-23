@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Specific",
-    "path": "folders/Objects/Controllers/Specific.yy",
+    "name": "Startup",
+    "path": "folders/Objects/Controllers/Specific/Startup.yy",
   },
   "parentObjectId": null,
   "persistent": false,

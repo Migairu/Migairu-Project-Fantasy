@@ -1,3 +1,3 @@
 // obj_logo Create Event
-alarm[0] = room_speed * 4; // 3-second timer
+alarm[0] = game_get_speed(gamespeed_fps) * 4; // 3-second timer
 

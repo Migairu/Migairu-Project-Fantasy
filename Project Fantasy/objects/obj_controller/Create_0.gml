@@ -1,11 +1,12 @@
 /// @description o_init create event
 
 //display macros
-#macro WIDTH global.ideal_width
-#macro HEIGHT global.ideal_height
+#macro IDEAL_WIDTH global.ideal_width
+#macro IDEAL_HEIGHT global.ideal_height
 #macro DESIGN_WIDTH 160
 #macro DESIGN_HEIGHT 240
 
+device_mouse_dbclick_enable(false);
 
 //	
 //IMPORTANT: USE ONLY ONE set_resolution at a time
@@ -30,7 +31,7 @@ set_resolution(DESIGN_WIDTH, false, true, false, 1);
 //By hard coding the aspect ratio you can test your game on-the-fly...
 // ...on any possible screen without using emulator
 
-set_camera(0, 0, WIDTH, HEIGHT);
+set_camera(0, 0, IDEAL_WIDTH, IDEAL_HEIGHT);
 
 
 
